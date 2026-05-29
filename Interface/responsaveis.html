@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsáveis</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="topo">
+        <h3>Saúde e Cuidado - Meus Idosos - Responsáveis</h3>
+    </div>
+
+    <div class="container">
+
+
+        <div class="card">
+
+            <h2>Novo Responsável</h2>
+
+            <input type="text" id="nomeResponsavel" placeholder="Nome">
+            <input type="text" id="telefoneResponsavel" placeholder="Telefone">
+            <input type="number" id="idosoId" placeholder="ID do Idoso">
+
+            <button onclick="criarResponsavel()">
+                Salvar
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Lista</h2>
+
+            <ul id="listaResponsaveis"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/responsaveis.js"></script>
+
+</body>
+</html>

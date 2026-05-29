@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idosos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="topo">
+        <h3>Saúde e Cuidado - Meus Idosos</h3>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Novo Idoso</h2>
+
+            <input type="text" id="nomeIdoso" placeholder="Nome">
+            <input type="number" id="idadeIdoso" placeholder="Idade">
+
+            <button onclick="criarIdoso()">
+                Salvar
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Lista</h2>
+
+            <ul id="listaIdosos"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/idosos.js"></script>
+
+</body>
+</html>

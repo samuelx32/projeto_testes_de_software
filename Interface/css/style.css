@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#topo{
+    background-color: black;
+    color:white;
+    padding:1em 4em;
+    margin-bottom: 10vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
