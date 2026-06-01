@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-06-01T12:30:36.457737" rpa="false" schemaversion="5">
+<suite id="s1" name="Ui02" source="C:\Users\samue\OneDrive\Ambiente de Trabalho\projeto_testes_de_software\relatorio_de_testes\ui02.robot">
+<test id="s1-t1" name="Cadastrar Responsavel Valido" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:36.952646" level="INFO">Opening browser 'chrome' to base url 'file:///C:/Users/samue/OneDrive/Ambiente%20de%20Trabalho/projeto_testes_de_software/Interface/index.html'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-01T12:30:36.952143" elapsed="1.402766"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-01T12:30:40.356460" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-01T12:30:38.355483" elapsed="2.001181"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:40.358064" level="INFO">Typing text 'joao@email.com' into text field 'id=emailLogin'.</msg>
+<arg>id=emailLogin</arg>
+<arg>joao@email.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:40.357304" elapsed="0.136629"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:40.495270" level="INFO">Clicking button 'Entrar'.</msg>
+<arg>Entrar</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:40.494520" elapsed="0.103983"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-01T12:30:42.600634" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-01T12:30:40.599408" elapsed="2.001496"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:42.601848" level="INFO">Clicking link 'Ver Responsáveis'.</msg>
+<arg>Ver Responsáveis</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:42.601477" elapsed="0.129586"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-01T12:30:44.733159" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-01T12:30:42.731801" elapsed="2.001523"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:44.734395" level="INFO">Typing text 'Maria Oliveira' into text field 'id=nomeResponsavel'.</msg>
+<arg>id=nomeResponsavel</arg>
+<arg>Maria Oliveira</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:44.733895" elapsed="0.094400"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:44.829341" level="INFO">Typing text '999999999' into text field 'id=telefoneResponsavel'.</msg>
+<arg>id=telefoneResponsavel</arg>
+<arg>999999999</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:44.828903" elapsed="0.084281"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-01T12:30:46.915007" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-01T12:30:44.913898" elapsed="2.001399"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:46.916181" level="INFO">Clicking button 'Salvar'.</msg>
+<arg>Salvar</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-01T12:30:46.915807" elapsed="0.076718"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-01T12:30:48.994264" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-01T12:30:46.993197" elapsed="2.001236"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-01T12:30:49.101774" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-01T12:30:49.102071" level="FAIL">Page should have contained text 'Erro: selecione o ID do idoso' but did not.</msg>
+<arg>Erro: selecione o ID do idoso</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="FAIL" start="2026-06-01T12:30:48.994998" elapsed="0.110477">Page should have contained text 'Erro: selecione o ID do idoso' but did not.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-06-01T12:30:49.105974" elapsed="0.000076"/>
+</kw>
+<status status="FAIL" start="2026-06-01T12:30:36.950303" elapsed="12.156150">Page should have contained text 'Erro: selecione o ID do idoso' but did not.</status>
+</test>
+<status status="FAIL" start="2026-06-01T12:30:36.460746" elapsed="12.646483"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Ui02" id="s1" pass="0" fail="1" skip="0">Ui02</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
